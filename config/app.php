@@ -1,7 +1,9 @@
 <?php
 
 return [
-
+    'admin_email' => env('ADMIN_EMAIL', 'admin@gmail.com'),
+    'admin_password' => env('ADMIN_PASSWORD', 'penguin69420'),
+    'admin_team_id' => env('ADMIN_TEAM_ID', 2),
     /*
     |--------------------------------------------------------------------------
     | Application Name
