@@ -1,9 +1,9 @@
 import { Body, Controller, Get, Post, UseGuards } from "@nestjs/common";
 import { JwtAuthGuard } from "src/auth/jwt-auth.guard";
 import { CreateAssignmentDto } from "./assignment-create.dto";
-import { Assignment } from "./assignment.entity";
+import { Assignment } from "../entities/assignment.entity";
 import { HomeworkService } from "./homework.service";
-import { Subject } from "./subject.entity";
+import { Subject } from "../entities/subject.entity";
 
 @Controller("homework")
 @UseGuards(JwtAuthGuard)

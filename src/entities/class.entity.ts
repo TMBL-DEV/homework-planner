@@ -1,4 +1,4 @@
-import { Users } from "src/user/user.entity";
+import { Users } from "src/entities/user.entity";
 import {
     Entity,
     Column,
@@ -7,7 +7,7 @@ import {
     OneToMany,
     JoinTable,
 } from "typeorm";
-import { Assignment } from "../homework/assignment.entity";
+import { Assignment } from "../../entities/assignment.entity";
 
 @Entity({ name: "school_classes" })
 export class Class {

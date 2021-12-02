@@ -1,7 +1,7 @@
 import { Module } from "@nestjs/common";
 import { TypeOrmModule } from "@nestjs/typeorm";
-import { Assignment } from "./assignment.entity";
-import { Subject } from "./subject.entity";
+import { Assignment } from "../entities/assignment.entity";
+import { Subject } from "../entities/subject.entity";
 import { HomeworkService } from "./homework.service";
 import { HomeworkController } from './homework.controller';
 

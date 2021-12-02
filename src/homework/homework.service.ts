@@ -1,10 +1,10 @@
 import { Injectable } from "@nestjs/common";
 import { InjectRepository } from "@nestjs/typeorm";
-import { Class } from "src/class/class.entity";
+import { Class } from "src/entities/class.entity";
 import { Repository } from "typeorm";
 import { CreateAssignmentDto } from "./assignment-create.dto";
-import { Assignment } from "./assignment.entity";
-import { Subject } from "./subject.entity";
+import { Assignment } from "../entities/assignment.entity";
+import { Subject } from "../entities/subject.entity";
 
 @Injectable()
 export class HomeworkService {

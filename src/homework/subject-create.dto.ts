@@ -1,4 +1,4 @@
-import { Assignment } from "./assignment.entity";
+import { Assignment } from "../entities/assignment.entity";
 import { IsNotEmpty, IsInt, IsString } from "class-validator";
 
 export class CreateClassDto {

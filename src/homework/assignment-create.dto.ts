@@ -1,7 +1,7 @@
 import { IsNotEmpty, IsDate, Min, IsString, IsNumber } from "class-validator";
-import { Class } from "src/class/class.entity";
-import { Assignment } from "./assignment.entity";
-import { Subject } from "./subject.entity";
+import { Class } from "src/entities/class.entity";
+import { Assignment } from "../entities/assignment.entity";
+import { Subject } from "../entities/subject.entity";
 
 export class CreateAssignmentDto {
     @IsString()

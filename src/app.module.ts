@@ -5,14 +5,10 @@ import { AppService } from "./app.service";
 import { ConfigModule } from "@nestjs/config";
 import { AuthService } from "./auth/auth.service";
 import { AuthModule } from "./auth/auth.module";
-import { Users } from "./user/user.entity";
 import { UsersModule } from "./user/user.module";
 import { AuthController } from "./auth/auth.controller";
 import { HomeworkModule } from "./homework/homework.module";
 import { ClassModule } from "./class/class.module";
-import { Assignment } from "./homework/assignment.entity";
-import { Class } from "./class/class.entity";
-import { Subject } from "./homework/subject.entity";
 import { HomeworkService } from "./homework/homework.service";
 
 @Module({

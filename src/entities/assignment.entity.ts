@@ -1,4 +1,4 @@
-import { Class } from "src/class/class.entity";
+import { Class } from "./class.entity";
 import { Subject } from "./subject.entity";
 import {
     Entity,
