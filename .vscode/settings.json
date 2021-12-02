@@ -1,0 +1,30 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MariaDB",
+            "name": "localhost nigger",
+            "username": "tim",
+            "password": "2TGBSq3VzMtz2n",
+            "database": "sheesh"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MariaDB",
+            "name": "homwork-planner local",
+            "database": "homework-planner",
+            "username": "tim",
+            "password": "2TGBSq3VzMtz2n"
+        }
+    ]
+}
